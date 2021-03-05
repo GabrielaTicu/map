@@ -5,12 +5,12 @@ var worldMap = document.getElementById("worldMap");
 h  = worldMap.clientHeight;
 var flag = document.getElementById("ru");
 ruTop = 0.26*h;
-flag.style = "top: " + ruTop + "px";
+flag.style += "top: " + ruTop + "px";
 
 //onmouseover for flags
 flag.onmouseover = function(){
-    flag.border = "thick solid lightblue";
+    flag.style += "border: thick solid lightblue";
 }
 flag.onmouseout = function(){
-    flag.border = "0px";
+    flag.style += "border: 0";
 }
