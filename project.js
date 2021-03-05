@@ -11,6 +11,6 @@ flag.style = "top: " + ruTop + "px";
 flag.onmouseover = function(){
     flag.border = "4px";
 }
-flag.onmouseover = function(){
+flag.onmouseout = function(){
     flag.border = "0px";
 }
