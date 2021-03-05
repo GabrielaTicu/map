@@ -6,3 +6,6 @@ h  = worldMap.clientHeight;
 var flag = document.getElementById("ru");
 ruTop = 0.26*h;
 flag.style = "top: " + ruTop + "px";
+flag.onmouseover = function(){
+    flag.border = "4px";
+}
