@@ -9,3 +9,6 @@
     border: 2,5px solid #ffff0075;
     opacity: 1;
 }
+#ru:visited {
+    opacity: 0.5;   
+}
