@@ -9,8 +9,8 @@ flag.style = "top: " + ruTop + "px";
 
 //onmouseover for flags
 flag.onmouseover = function(){
-    flag.style = "border: thick solid lightblue";
+    flag.style = "border: thick solid lightblue; top: " + ruTop + "px";
 }
 flag.onmouseout = function(){
-    flag.style = "border: 0";
+    flag.style = "border: 0; top: " + ruTop + "px";
 }
