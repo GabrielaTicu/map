@@ -7,7 +7,7 @@ var flag = document.getElementById("ru");
 ruTop = 0.26*h;
 flag.style.top = ruTop + "px";
 
-//onmouseover for flags
+//onmouseover for flag
 /*flag.onmouseover = function(){
     flag.style.border = "thin solid blue";
 }
