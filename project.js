@@ -14,3 +14,4 @@ flag.style.top = ruTop + "px";
 flag.onmouseout = function(){
     flag.style.border = "0";
 }*/
+
