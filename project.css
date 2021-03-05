@@ -5,3 +5,6 @@
     width: 3%;
     opacity: 0.8;
 }
+#ru: hover{
+    border: thin solid blue;
+}
