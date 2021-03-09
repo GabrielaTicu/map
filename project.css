@@ -1,6 +1,9 @@
+#worldMap {
+    width=100%
+}
 
 #ru {
-    position: absolute;
+    position: relative;
     left: 68.5%;
     width: 3%;
     opacity: 0.8;
