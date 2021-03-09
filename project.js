@@ -6,7 +6,7 @@ h  = worldMap.clientHeight;
 //set position for ru flag
 var ruTop = "";
 var flag = document.getElementById("ru");
-ruTop = -0.74*h;
+ruTop = -0.76*h;
 flag.style.top = ruTop + "px";
 
 //set vertical position for us flag
