@@ -2,15 +2,33 @@
     width: 100%;
 }
 
-#ru {
+/*flags's data*/
+.flags {
     position: relative;
-    left: 68.5%;
     width: 3%;
     opacity: 0.8;
 }
-#ru:hover {
+.flags:hover {
     opacity: 1;
 }
-#ru:visited {
+.flags:visited {
     opacity: 0.5;   
+}
+
+#ru {
+    left: 68.5%;
+}
+#us {
+    left: 15%;
+}
+#uk {
+    width: 2%;
+    left: 37%
+}
+#br {
+    left: 26%;
+}
+#il {
+    width: 2%;
+    left: 45.5%;
 }
